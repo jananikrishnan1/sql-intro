@@ -15,3 +15,4 @@
 -- +------+----------+
 
 
+SELECT year, COUNT(Name) FROM teams GROUP BY year;
